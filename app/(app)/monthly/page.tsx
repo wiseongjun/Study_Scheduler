@@ -5,22 +5,22 @@ import { saveMonthlyChecklist } from "./actions";
 import { SubmitButton } from "@/components/ui/submit-button";
 
 const COMMON_CHECKS = [
-  { id: "assignment_phase_done", label: "이번 달 목표 Phase 완료?", category: "과제 진행" },
-  { id: "assignment_delay_analyzed", label: "계획 대비 지연 원인 파악?", category: "과제 진행" },
-  { id: "blog_target_met", label: "블로그 목표 편수 달성?", category: "공개 산출물" },
-  { id: "github_commits_ok", label: "GitHub 커밋 그래프 보기 좋은가?", category: "공개 산출물" },
-  { id: "algorithm_target_met", label: "알고리즘 문제 수 달성?", category: "기초 체력" },
-  { id: "db_curriculum_progress", label: "DB 커리큘럼 진행?", category: "기초 체력" },
-  { id: "cs_note_rate", label: "CS 노트 작성률 80%+?", category: "기초 체력" },
-  { id: "routine_rhythm", label: "생활 리듬 유지?", category: "루틴 자체" },
-  { id: "exercise_3x", label: "운동 주 3회?", category: "루틴 자체" },
-  { id: "budget_ok", label: "지출 예산 내?", category: "루틴 자체" },
+  { id: "assignment_phase_done", label: "이번 달 목표 Phase를 완료했나요?", category: "과제 진행" },
+  { id: "assignment_delay_analyzed", label: "계획보다 늦어진 이유를 파악했나요?", category: "과제 진행" },
+  { id: "blog_target_met", label: "블로그 글 목표 편수를 채웠나요?", category: "공개 산출물" },
+  { id: "github_commits_ok", label: "GitHub 커밋 그래프가 꾸준한가요?", category: "공개 산출물" },
+  { id: "algorithm_target_met", label: "알고리즘 목표 문제 수를 달성했나요?", category: "기초 체력" },
+  { id: "db_curriculum_progress", label: "이번 달 DB 커리큘럼을 진행했나요?", category: "기초 체력" },
+  { id: "cs_note_rate", label: "CS 파인만 노트를 80% 이상 작성했나요?", category: "기초 체력" },
+  { id: "routine_rhythm", label: "기상 시간과 생활 리듬을 유지했나요?", category: "생활 루틴" },
+  { id: "exercise_3x", label: "운동을 주 3회 이상 했나요?", category: "생활 루틴" },
+  { id: "budget_ok", label: "이번 달 지출이 예산 안에 들었나요?", category: "생활 루틴" },
 ];
 
 const M3_PLUS_CHECKS = [
-  { id: "applications_target", label: "지원 수 목표?", category: "지원 활동" },
-  { id: "interviews_count", label: "면접 수?", category: "지원 활동" },
-  { id: "interview_debrief_rate", label: "면접 복기 작성률?", category: "지원 활동" },
+  { id: "applications_target", label: "목표한 지원 수를 채웠나요?", category: "지원 활동" },
+  { id: "interviews_count", label: "면접을 계획한 만큼 경험했나요?", category: "지원 활동" },
+  { id: "interview_debrief_rate", label: "면접 복기 문서를 빠짐없이 작성했나요?", category: "지원 활동" },
 ];
 
 export default async function MonthlyPage() {

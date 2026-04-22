@@ -154,20 +154,20 @@
   "hotPaths": [
     {
       "path": "",
-      "accessCount": 41,
-      "lastAccessed": 1776822311829,
+      "accessCount": 44,
+      "lastAccessed": 1776822772797,
       "type": "directory"
+    },
+    {
+      "path": "app/(app)/monthly/page.tsx",
+      "accessCount": 18,
+      "lastAccessed": 1776822666134,
+      "type": "file"
     },
     {
       "path": "app/(app)/dashboard/page.tsx",
       "accessCount": 16,
       "lastAccessed": 1776820706818,
-      "type": "file"
-    },
-    {
-      "path": "app/(app)/monthly/page.tsx",
-      "accessCount": 16,
-      "lastAccessed": 1776820758124,
       "type": "file"
     },
     {
@@ -202,8 +202,8 @@
     },
     {
       "path": "app/(app)/monthly/actions.ts",
-      "accessCount": 9,
-      "lastAccessed": 1776820257436,
+      "accessCount": 10,
+      "lastAccessed": 1776822780157,
       "type": "file"
     },
     {
@@ -420,6 +420,12 @@
       "path": "app/(app)/onboarding/loading.tsx",
       "accessCount": 1,
       "lastAccessed": 1776820752640,
+      "type": "file"
+    },
+    {
+      "path": "master-plan-6months.md",
+      "accessCount": 1,
+      "lastAccessed": 1776822627525,
       "type": "file"
     }
   ],
