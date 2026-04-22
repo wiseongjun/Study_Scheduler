@@ -154,8 +154,8 @@
   "hotPaths": [
     {
       "path": "",
-      "accessCount": 40,
-      "lastAccessed": 1776820254329,
+      "accessCount": 41,
+      "lastAccessed": 1776822311829,
       "type": "directory"
     },
     {
@@ -318,6 +318,12 @@
       "path": "app/auth/callback/route.ts",
       "accessCount": 3,
       "lastAccessed": 1776791714368,
+      "type": "file"
+    },
+    {
+      "path": "app/layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1776822342004,
       "type": "file"
     },
     {
