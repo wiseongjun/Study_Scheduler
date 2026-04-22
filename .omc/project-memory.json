@@ -1,0 +1,421 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776755535121,
+  "projectRoot": "/Users/wiseongjun/Downloads/developer_scheduler",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.2.4",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase",
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "components",
+      "lib",
+      "public"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1776755535115,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 1,
+      "lastAccessed": 1776755535115,
+      "keyFiles": [
+        "logout-button.tsx"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1776755535117,
+      "keyFiles": [
+        "utils.ts"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1776755535117,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "supabase": {
+      "path": "supabase",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776755535117,
+      "keyFiles": []
+    },
+    "lib/types": {
+      "path": "lib/types",
+      "purpose": "Type definitions",
+      "fileCount": 3,
+      "lastAccessed": 1776755535118,
+      "keyFiles": [
+        "database.ts",
+        "metrics.ts",
+        "retrospective.ts"
+      ]
+    },
+    "lib/utils": {
+      "path": "lib/utils",
+      "purpose": "Utility functions",
+      "fileCount": 1,
+      "lastAccessed": 1776755535118,
+      "keyFiles": [
+        "date-kst.ts"
+      ]
+    },
+    "supabase/migrations": {
+      "path": "supabase/migrations",
+      "purpose": "Database migrations",
+      "fileCount": 1,
+      "lastAccessed": 1776755535118,
+      "keyFiles": [
+        "0001_init.sql"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 40,
+      "lastAccessed": 1776820254329,
+      "type": "directory"
+    },
+    {
+      "path": "app/(app)/dashboard/page.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1776820706818,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/monthly/page.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1776820758124,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/today/page.tsx",
+      "accessCount": 15,
+      "lastAccessed": 1776820774158,
+      "type": "file"
+    },
+    {
+      "path": "supabase/migrations/0001_init.sql",
+      "accessCount": 13,
+      "lastAccessed": 1776790997073,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/retrospective/new/page.tsx",
+      "accessCount": 11,
+      "lastAccessed": 1776820752992,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/retrospective/new/actions.ts",
+      "accessCount": 10,
+      "lastAccessed": 1776820257617,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/today/actions.ts",
+      "accessCount": 10,
+      "lastAccessed": 1776820712815,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/monthly/actions.ts",
+      "accessCount": 9,
+      "lastAccessed": 1776820257436,
+      "type": "file"
+    },
+    {
+      "path": "lib/utils/date-kst.ts",
+      "accessCount": 9,
+      "lastAccessed": 1776820273563,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/week/page.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1776820706296,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/onboarding/page.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1776820763277,
+      "type": "file"
+    },
+    {
+      "path": "proxy.ts",
+      "accessCount": 7,
+      "lastAccessed": 1776793402434,
+      "type": "file"
+    },
+    {
+      "path": "lib/supabase/server.ts",
+      "accessCount": 7,
+      "lastAccessed": 1776820273400,
+      "type": "file"
+    },
+    {
+      "path": "middleware.ts",
+      "accessCount": 6,
+      "lastAccessed": 1776787982087,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/layout.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1776820244881,
+      "type": "file"
+    },
+    {
+      "path": "lib/supabase/client.ts",
+      "accessCount": 6,
+      "lastAccessed": 1776820273124,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/onboarding/actions.ts",
+      "accessCount": 5,
+      "lastAccessed": 1776788034358,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 5,
+      "lastAccessed": 1776820264694,
+      "type": "file"
+    },
+    {
+      "path": "lib/types/database.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776756038559,
+      "type": "file"
+    },
+    {
+      "path": "lib/types/metrics.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776788034469,
+      "type": "file"
+    },
+    {
+      "path": "supabase/seed/run.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776788053894,
+      "type": "file"
+    },
+    {
+      "path": "app",
+      "accessCount": 4,
+      "lastAccessed": 1776788089659,
+      "type": "directory"
+    },
+    {
+      "path": "app/login/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776791629869,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/retrospective/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776820707036,
+      "type": "file"
+    },
+    {
+      "path": "lib/types/retrospective.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776756039075,
+      "type": "file"
+    },
+    {
+      "path": ".env.local",
+      "accessCount": 3,
+      "lastAccessed": 1776788036854,
+      "type": "file"
+    },
+    {
+      "path": "app/auth/callback/route.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776791714368,
+      "type": "file"
+    },
+    {
+      "path": "supabase/seed/plan-data.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776756035890,
+      "type": "file"
+    },
+    {
+      "path": "supabase",
+      "accessCount": 2,
+      "lastAccessed": 1776788077281,
+      "type": "directory"
+    },
+    {
+      "path": ".env.local.example",
+      "accessCount": 1,
+      "lastAccessed": 1776756034138,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776788077380,
+      "type": "file"
+    },
+    {
+      "path": "components/logout-button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820245719,
+      "type": "file"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820250434,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/today/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820717398,
+      "type": "file"
+    },
+    {
+      "path": "components/ui/submit-button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820719782,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/week/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820720805,
+      "type": "file"
+    },
+    {
+      "path": "components/daily/check-item.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820726704,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/dashboard/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820728548,
+      "type": "file"
+    },
+    {
+      "path": "components/daily/metric-counter.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820730181,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/retrospective/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820731929,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/retrospective/new/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820741554,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/monthly/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820747983,
+      "type": "file"
+    },
+    {
+      "path": "app/(app)/onboarding/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776820752640,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
